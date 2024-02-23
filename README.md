@@ -4,7 +4,7 @@ Python script to extract geolocated airport terminal shapes using the overpass t
 
 Delivers geojson files which can be applied in e.g. QGIS.
 
-Output 1: Simple outer delineation of the terminal (DUS example):
+Output 1: Simple outer delineation of the terminal infra (DUS example):
 ![DUS_line](https://github.com/MrAirspace/geolocated-airport-shapes-from-openstreetmap/assets/144953682/5c7a2d4f-fbfd-4903-bd10-60f6614dfea5)
 
 Output 2: Complete merged terminal structure (DUS example):
