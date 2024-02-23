@@ -34,6 +34,7 @@ Dubai (DXB)
 ![DXB_merged](https://github.com/MrAirspace/geolocated-airport-shapes-from-openstreetmap/assets/144953682/c76f2278-d1e1-4774-9063-01defd47fdd7)
 
 
+
 Troubleshooting
 
 At present, the script is no complete approach. The output can feature incomplete terminal structures such as the following example:
@@ -41,7 +42,9 @@ At present, the script is no complete approach. The output can feature incomplet
 
 Reason for this is the way how infrastructure is classified in openstreetmap.
 Normal approach to classify a terminal is: way["aeroway"="terminal"]
+
 But sometimes part of the terminal infra is incorrectly formatted as: relation["aeroway"="terminal"]
 In this case, those parts of the terminal are not yet extracted at present.
+
 
 Another reason if the terminal infrastructure is incomplete could be a too-limited search radius in the python script. In that case, increase the integer to cover a wider search area.
