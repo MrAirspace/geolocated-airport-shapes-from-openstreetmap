@@ -1,6 +1,6 @@
 # geolocated-airport-shapes-from-openstreetmap
 
-Python script to extract geolocated airport terminal shapes using the overpass turbo API and openstreetmap data.
+Python script to extract geolocated (GPS/WGS84) airport terminal shapes using the overpass turbo API and openstreetmap data.
 
 Delivers geojson files which can be applied in e.g. QGIS.
 
