@@ -35,8 +35,10 @@ Dubai (DXB)
 
 
 Troubleshooting
-The script is no complete approach at present. The output can feature incomplete terminal structures such as the following example:
+
+At present, the script is no complete approach. The output can feature incomplete terminal structures such as the following example:
 ![FRA_merged](https://github.com/MrAirspace/geolocated-airport-shapes-from-openstreetmap/assets/144953682/47d68bac-801c-412d-9ced-8e513d1fb977)
+
 Reason for this is the way how infrastructure is classified in openstreetmap.
 Normal approach to classify a terminal is: way["aeroway"="terminal"]
 But sometimes part of the terminal infra is incorrectly formatted as: relation["aeroway"="terminal"]
