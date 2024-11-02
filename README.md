@@ -13,7 +13,8 @@ Output 2: Complete merged terminal structure (DUS example):
 Output 3: Detailed terminal structure with individual infra/piers (DUS example):
 ![DUS_piers](https://github.com/MrAirspace/geolocated-airport-shapes-from-openstreetmap/assets/144953682/4c7afc19-946c-41f8-b854-c80828e81ce8)
 
-Further Examples:
+
+# Further Examples:
 
 Singapore (SIN)
 ![SIN_merged](https://github.com/MrAirspace/geolocated-airport-shapes-from-openstreetmap/assets/144953682/9839c440-1a87-4c0b-ac81-b7d95f56af14)
@@ -35,9 +36,9 @@ Dubai (DXB)
 
 
 
-**Troubleshooting:**
+# Troubleshooting:
 
-At present, the script is in its initial stages of code. The output can still feature incomplete terminal structures such as the following example:
+At present, the script is in its initial stages of code. The output can still feature incomplete terminal structures such as the following example (FRA):
 ![FRA_merged](https://github.com/MrAirspace/geolocated-airport-shapes-from-openstreetmap/assets/144953682/47d68bac-801c-412d-9ced-8e513d1fb977)
 
 Reason for this is the way how infrastructure is classified in openstreetmap.
